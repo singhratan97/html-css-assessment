@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <script src="https://kit.fontawesome.com/90d2729d03.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+        .div2{
+            border: 1px solid black;
+            width: fit-content;
+            margin-bottom: 15px;
+            background-color: rgb(196, 189, 189);
+        }
+        i{
+            vertical-align: middle ;
+            padding:10px;
+            text-align: center;
+            width: 30px;
+        }
+        input{
+            width: 400px;
+            padding: 10px;
+        }
+        .div1,.div2{
+            display: inline-block;
+        }
+        .div1{
+            width: 150px;
+            margin-right: 200px;
+        }
+        #main{
+            width: fit-content;
+            margin: 100px auto;
+            background-color: rgb(196, 189, 189);
+            padding: 50px;
+            border-radius: 40px;
+        }
+        .submit{
+            width: fit-content;
+            margin: 0 auto;
+        }
+        input[type="submit"]
+        {
+            width: 100px;
+        }
+        @media only screen and (max-width:990px) {
+            input{
+            width: 200px;
+            padding: 10px;
+        }
+        .div1,.div2{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
+        #main{
+            width: 95%;
+            margin: 0px auto;
+            background-color: rgb(196, 189, 189);
+            padding: 10px;
+            border-radius: 40px;
+        }
+        }
+    </style>
+</head>
+<body> 
+    <div id="main">
+    <form>
+        <div class="div1">Full Name</div>
+        <div class="div2">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Full Name" required>
+        </div> <br>
+        <div class="div1">Address Line 1</div>
+        <div class="div2">
+            <i class="fas fa-address-card"></i>
+            <input type="text" placeholder="Address Line 1" required>
+        </div> <br>
+        <div class="div1">Address Line 2</div>
+        <div class="div2">
+            <i class="fas fa-address-card"></i>
+            <input type="text" placeholder="Address Line 2" required>
+        </div> <br>
+        <div class="div1">City</div>
+        <div class="div2">
+            <i class="fas fa-city"></i>
+            <input type="text" placeholder="City" required>
+        </div> <br>
+        <div class="div1">State/Province/Region</div>
+        <div class="div2">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="State/Province/Region" required>
+        </div> <br>
+        <div class="div1">Postal Code/ZIP</div>
+        <div class="div2">
+            <i class="fas fa-mail-bulk"></i>
+            <input type="text" placeholder="Postal Code/ZIP" required>
+        </div> <br>
+        <div class="div1">Country</div>
+        <div class="div2">
+            <i class="fas fa-globe-asia"></i>
+            <input type="text" placeholder="Country" required>
+        </div> <br>
+        <div class="div1">Email</div>
+        <div class="div2">
+            <i class="fas fa-user"></i>
+            <input type="email" placeholder="Email" required>
+        </div> <br>
+        <div class="div1">Phone Number</div>
+        <div class="div2">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Phone Number" required>
+        </div>
+        <div class="submit"><input type="submit" value="Submit"></div>
+    </form>
+    </div>
+</body>
+</html>

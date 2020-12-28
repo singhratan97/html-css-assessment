@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        .card{
+            width:30%;
+            border: 1px solid black;
+        }
+        img{
+            width: 100%;
+        }
+        .tb-flex{
+            display:flex;
+            justify-content: space-between;
+        }
+        
+        .cardholder{
+            display:flex;
+            justify-content:space-around;
+            padding: 10px 0;
+        }
+        .content{
+            padding: 10px;
+        }
+
+        .btn{
+            margin: 10px 0;
+                color: white;
+                background-color: rgb(56, 150, 56);
+                width: 150px;
+                height: 50px;
+                border-radius:8px;
+        }
+        @media only screen and (max-width:700px) {
+            .cardholder{
+                display:flex;
+                flex-direction: column;
+                padding: 10px 0;
+        }
+        .card{
+            width: 70%;
+            margin: 10px auto;
+        }
+
+        }
+        .rate{
+            position: relative;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cardholder">
+            <div class="card">
+                <img src="img1.jpeg" alt="">
+                    <div class="content">
+                        <h3>Product title</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                        <div class="tb-flex">
+                            <div class="rate">$21.00</div>
+                            <div><button type="button" class="btn"> Add to Cart </button></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="img1.jpeg" alt="">
+                    <div class="content">
+                        <h3>Product title</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                        <div class="tb-flex">
+                            <div class="rate">$21.00</div>
+                            <div><button type="button" class="btn"> Add to Cart </button></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="img1.jpeg" alt="">
+                    <div class="content">
+                        <h3>Product title</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                        <div class="tb-flex">
+                            <div class="rate">$21.00</div>
+                            <div><button type="button" class="btn"> Add to Cart </button></div>
+                        </div>
+                    </div>
+            </div>  
+    </div>
+    <div class="cardholder">
+        <div class="card">
+            <img src="img1.jpeg" alt="">
+                <div class="content">
+                    <h3>Product title</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                    <div class="tb-flex">
+                        <div class="rate">$21.00</div>
+                        <div><button type="button" class="btn"> Add to Cart </button></div>
+                    </div>
+                </div>
+        </div>
+        <div class="card">
+            <img src="img1.jpeg" alt="">
+                <div class="content">
+                    <h3>Product title</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                    <div class="tb-flex">
+                        <div class="rate">$21.00</div>
+                        <div><button type="button" class="btn"> Add to Cart </button></div>
+                    </div>
+                </div>
+        </div>
+        <div class="card">
+            <img src="img1.jpeg" alt="">
+                <div class="content">
+                    <h3>Product title</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla, accusantium quisquam impedit suscipit accusamus sequi! Distinctio cum error dicta numquam iure est ducimus odit, asperiores accusantium in, quae vel.</p>
+                    <div class="tb-flex">
+                        <div class="rate">$21.00</div>
+                        <div><button type="button" class="btn"> Add to Cart </button></div>
+                    </div>
+                </div>
+        </div>  
+</div>
+    
+    
+</body>
+</html>
